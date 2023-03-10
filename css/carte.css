@@ -1,0 +1,32 @@
+.carte-product {
+    width: calc(33% - 20px);
+    background-color: white;
+
+    
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+.carte-product p{
+    padding: 20px;
+}
+
+.container {
+    width: 60vw;
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: inherit;
+    }
+
+
+    .carte-product {
+        width: 100%;
+    }
+}
